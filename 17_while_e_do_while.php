@@ -13,6 +13,28 @@
     <h1>While e Do While no PHP</h1>
 
     <?php 
+
+    echo "Usando o while <br>";
+    $contador = 1;
+
+    while($contador <= 10) {
+        echo "Contador é = $contador <br>";
+        $contador++;
+    };
+
+    
+
+
+    echo "Usando o do while <br>";
+    $contador = 1;
+
+    do {
+        echo "Contador é = $contador <br>";
+        $contador++;
+    } while ($contador <= 10);
+
+    
+
     
     ?>
 
